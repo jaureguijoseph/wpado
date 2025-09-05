@@ -36,7 +36,7 @@ Branch strategy: Each phase/sub-phase gets its own branch for safe development a
 
 ## Documentation
 
-- `8:19 PRD.md` - Complete Product Requirements Document
+- `8:30 PRD.md` - Complete Product Requirements Document
 - `wordpress_site_info.md` - WordPress environment details
 - `complete_customer_journey_mermaid_diagram.png` - Visual workflow
 - `wsf-form-*.json` - WS Form configurations for each step
