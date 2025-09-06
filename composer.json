@@ -1,0 +1,54 @@
+{
+    "name": "jaureguijoseph/wpado",
+    "description": "WordPress Admin Dashboard Optimizer - Gift Card Liquidation Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Joseph Jauregui",
+            "email": "jaureguijoseph@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "plaid/plaid": "^14.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "wp-phpunit/wp-phpunit": "^6.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPADO\\": "includes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WPADO\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf",
+        "install-codestandards": [
+            "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+        ],
+        "phpcs-config": [
+            "phpcs --config-set installed_paths $PWD/vendor/wp-coding-standards/wpcs"
+        ]
+    },
+    "extra": {
+        "wordpress-install-dir": "../../../.."
+    }
+}
