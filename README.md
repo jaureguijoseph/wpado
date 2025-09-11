@@ -4,7 +4,7 @@ WordPress plugin for secure gift card liquidation with Plaid RTP/FedNow payouts 
 
 ## Features
 
-- **Federal Compliance**: Enforces $500/24h, $1,500/7d, $2,500/month, $8,500/year limits
+- **Federal Compliance**: Enforces $500/24h, $1,500/7d, $3,500/month, $8,500/year limits
 - **Secure Banking**: Plaid OAuth 2.1 integration with RTP/FedNow capability checking
 - **Payment Processing**: Authorize.Net integration via WS Form PRO extension
 - **Multi-Stage Security**: 5 secret validation checkpoints with AES-256 encryption
