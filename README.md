@@ -28,7 +28,7 @@ WordPress plugin for secure gift card liquidation with Plaid RTP/FedNow payouts 
 
 ## Architecture
 
-See `8:19 PRD.md` for complete technical specifications and implementation details.
+See `WP Admin Dashboard Optimizer Plugin - Production Ready PRD` for complete technical specifications and implementation details.
 
 ## Development
 
@@ -36,7 +36,7 @@ Branch strategy: Each phase/sub-phase gets its own branch for safe development a
 
 ## Documentation
 
-- `8:19 PRD.md` - Complete Product Requirements Document
+- `WP Admin Dashboard Optimizer Plugin - Production Ready PRD` - Complete Product Requirements Document
 - `wordpress_site_info.md` - WordPress environment details
 - `complete_customer_journey_mermaid_diagram.png` - Visual workflow
 - `wsf-form-*.json` - WS Form configurations for each step
